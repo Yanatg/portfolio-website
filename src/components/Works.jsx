@@ -10,7 +10,7 @@ function Work() {
                 <div className="col">
                     <div className="card shadow-sm">
                         <img
-                          src="/images/piano.jpeg"
+                          src={require("../images/piano.jpeg")}
                           alt="Thumbnail"
                           className="bd-placeholder-img card-img-top"
                           id="piano"
@@ -35,7 +35,7 @@ function Work() {
                 <div className="col">
                     <div className="card shadow-sm">
                         <img
-                          src="/images/country.jpeg"
+                          src={require("../images/country.jpeg")}
                           alt="Thumbnail"
                           className="bd-placeholder-img card-img-top"
                           id="countries"

@@ -3,7 +3,7 @@ import React from "react";
 function About() {
     return (
         <div id="about" className="about-container">
-            <img src="/images/ged_profile.png" alt="myPic" className="gedPic"/>
+            <img src={require("../images/ged_profile.png")} alt="myPic" className="gedPic"/>
             <div className="about-content">
                 <h2>About ME</h2>
                 <h3>Hello,<br/> My name is Yanatchara Jeraja.</h3>

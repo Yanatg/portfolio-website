@@ -15,7 +15,7 @@ function Home() {
 
                 <section id="home" className="center-section">
                     <p>YANATCHARA<br/>JERAJA</p>
-                    <img src="/images/girl_icon.png" alt="myPic" className="myPic"/>
+                    <img src={require("../images/girl_icon.png")} alt="myPic" className="myPic"/>
                     <h3>Portfolio</h3>
                 </section>
 
