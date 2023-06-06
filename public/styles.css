@@ -1,0 +1,338 @@
+html {
+  font-family: 'Rubik', serif;
+}
+
+body {
+  background-image: url("images/home_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 2.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Rubik', serif;
+}
+
+.menu {
+  position: fixed;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 20px;
+  transition: top 0.3s ease;
+  top: -10px;
+  width: 100%;
+  z-index: 1;
+}
+
+.menu.fixed {
+  position: fixed;
+  top: -10px;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 0;
+
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.content {
+  align-content: center;
+  text-align: center;
+  padding: 0;
+  color: black;
+  margin-top: 0;
+  width: 100%;
+}
+
+.content img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+  height: auto;
+}
+
+section {
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /*background-color: lightgoldenrodyellow;*/
+}
+
+
+.contact-container {
+  position: fixed;
+  top: 15px;
+  right: 30px;
+  margin-right: 20px;
+  display: flex;
+  z-index: 1;
+}
+
+.contact-button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.dropdown i {
+  margin-right: 5px;
+}
+
+
+.education-container {
+  /* Set desired styles for the education container */
+}
+
+.education-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; /* Adjust spacing between items */
+}
+
+.education-column {
+  /* Set desired styles for each column */
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+}
+
+.education-item img {
+  width: 20px; /* Adjust icon size as needed */
+  height: 20px;
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+.col img {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-secondary {
+  border-radius: 30px;
+  margin-bottom: 10px;
+  background-color: lightslategrey;
+  border-color: lightslategrey;
+}
+
+.cards {
+  font-size: 20px;
+}
+
+.cards img{
+  object-fit: cover;
+  width: 100%;
+  height: 225px;
+  margin: 0;
+}
+
+.cards p{
+  font-size: 15px;
+  text-align: left;
+}
+
+#home {
+  position: relative;
+  font-size: 80px;
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: left;
+  align-items: center;
+}
+
+.center-section p {
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.center-section h3 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+
+#home img {
+  position: absolute;
+  /*align-content: flex-end;*/
+  width: 300px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  top: 40%;
+  margin-left: 50%;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.gedPic {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 20px; /* Add margin to create spacing between the image and text */
+}
+
+.about-content {
+  flex: 1; /* Take up remaining space */
+  text-align: left;
+  padding: 20px;
+}
+
+.about-content h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: 'Nanum Myeongjo', serif;
+  padding-bottom: 20px;
+}
+
+.about-content h3 {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.about-content ul {
+  font-size: 20px;
+}
+
+.education-container h2 {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: 'Nanum Myeongjo', serif;
+  padding-bottom: 10px;
+}
+
+.work-container h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-family: 'Nanum Myeongjo', serif;
+  padding-bottom: 10px;
+}
+
+
